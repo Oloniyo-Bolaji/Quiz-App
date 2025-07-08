@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import questionData from "./data.js";
-import Question from "./question";
+import Question from "./Question";
 
 const App = () => {
   const [question] = useState(questionData);
