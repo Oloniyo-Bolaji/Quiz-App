@@ -1,0 +1,35 @@
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+.btns button{
+    border: none;
+}
+.control-btns {
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+}
+.control-btns button {
+  background: #2f3651;
+  color: white;
+  border-radius: 6px;
+  padding: 7px;
+}
+.ans-container {
+  padding: 0 10px;
+}
+.ans-container li {
+  list-style: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: 3px azure solid;
+}
+.submit button {
+  background: #2f3651;
+  color: white;
+  border-radius: 6px;
+  padding: 7px;
+}

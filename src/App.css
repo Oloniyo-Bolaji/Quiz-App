@@ -1,0 +1,87 @@
+.container {
+  display: flex;
+  position: relative;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.start-btn {
+  width: 100px;
+  padding: 10px 8px;
+  border-radius: 5px;
+  background: #8ebbff;
+  border: transparent;
+  color: white;
+  font-size: 20px;
+}
+.cont {
+  position: absolute;
+  width: 650px;
+  background: #8ebbff;
+  border: 2px #8ebbff solid;
+  padding: 20px 15px;
+  border-radius: 10px;
+}
+.timer-container {
+  display: flex;
+  justify-content: space-between;
+}
+.timer {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: white;
+}
+.correct {
+  border: 0.5px green solid;
+  background: palegreen;
+}
+.wrong {
+  border: 0.5px red solid;
+  background: orangered;
+}
+.score {
+  position: absolute;
+}
+.none {
+  display: none;
+}
+.next {
+  display: none;
+}
+.score {
+  background: #8ebbff;
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.score h3 {
+  font-size: 18px;
+}
+.score span {
+  color: grey;
+}
+.score button {
+  background: #2f3651;
+  margin-top: 10px;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+}
+@media screen and (max-width:500px) {
+  .cont{
+    width:270px;
+  }
+}
