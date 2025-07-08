@@ -1,5 +1,5 @@
 import React from "react";
-import "./question.css";
+import "./Question.css";
 
 const Question = ({
   nextQuestion,
